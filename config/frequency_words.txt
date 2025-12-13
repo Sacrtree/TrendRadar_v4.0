@@ -1,46 +1,40 @@
 胖东来
+山姆超市
+开市客
+Costco
 
 DeepSeek
+Gemini
+ChatGPT
+Claude
+
+AI
+!gai
+人工智能
 
 华为
 小米
 比亚迪
 大疆
 
-游戏
+马斯克
+雷军
 
-值不值得买
+游戏
 性价比
 使用体验
 电子产品
-平替
-
-科幻
-软件更新
+值不值得买
 
 特斯拉
-马斯克
-
 微软
-Microsoft
-
 英伟达
-NVIDIA
-
 谷歌
-google
-gemini
-
-chatgpt
-openai
-sora
-
-claude
+Google
+NVIDIA
+Microsoft
+Openai
 Anthropic
-
-ai
-!gai
-人工智能
 
 国产
 中国
@@ -50,12 +44,12 @@ ai
 韩国
 以色列
 
-科技
+科幻
 神作
-推荐
+
+科技
 
 月球
-登月
 火星
 宇宙
 飞船
@@ -65,5 +59,6 @@ ai
 军事
 俄乌战争
 加沙
+
 舆论
 热议
