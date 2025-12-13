@@ -162,8 +162,6 @@ weight:
 
 # name 可以定义任意名称，只具有显示作用，即使项目运行了几天后，忽然改掉 name 也不会影响代码的正常运行
 platforms:
-  - id: "ithome"
-    name: "IT之家"
   - id: "_36kr"
     name: "36氪"
   - id: "coolapk"
@@ -178,14 +176,10 @@ platforms:
     name: "知乎"
   - id: "hupu"
     name: "虎扑"
-  - id: "baidu"
-    name: "百度热搜"
   - id: "thepaper"
     name: "澎湃新闻"
   - id: "ifeng"
     name: "凤凰网"
-  - id: "douban"
-    name: "豆瓣"
   - id: "sputniknewscn"
     name: "卫星通讯社"
   - id: "zaobao"
