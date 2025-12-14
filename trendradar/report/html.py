@@ -55,12 +55,14 @@ def render_html_content(
             }
 
             .container {
-                max-width: 600px;
+                width: 100%;
+                max-width: 640px;
                 margin: 0 auto;
                 background: white;
                 border-radius: 12px;
                 overflow: hidden;
                 box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+                display: block;
             }
 
             .header {
@@ -115,11 +117,19 @@ def render_html_content(
             }
 
             .header-info {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                gap: 16px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 12px;
                 font-size: 14px;
                 opacity: 0.95;
+            }
+
+            @supports (display: grid) {
+                .header-info {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+                    gap: 16px;
+                }
             }
 
             .info-item {
@@ -285,6 +295,8 @@ def render_html_content(
                 line-height: 1.4;
                 color: #1a1a1a;
                 margin: 0;
+                word-break: break-word;
+                overflow-wrap: anywhere;
             }
 
             .news-link {
@@ -379,6 +391,8 @@ def render_html_content(
                 line-height: 1.4;
                 color: #1a1a1a;
                 margin: 0;
+                word-break: break-word;
+                overflow-wrap: anywhere;
             }
 
             .error-section {
