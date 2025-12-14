@@ -95,14 +95,6 @@ def render_html_content(
 
                         <tr>
                             <td background="https://via.placeholder.com/1x1/4f46e5/4f46e5" bgcolor="#4f46e5" style="background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); padding: 30px 20px;">
-                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                    <tr>
-                                        <td align="right" class="save-buttons">
-                                            <span class="btn" onclick="saveAsImage()">保存图片</span>
-                                            <span class="btn" onclick="saveAsMultipleImages()">分段保存</span>
-                                        </td>
-                                    </tr>
-                                </table>
 
                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
