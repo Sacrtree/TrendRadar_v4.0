@@ -161,27 +161,3 @@ jobs:
           S3_REGION: ${{ secrets.S3_REGION }}
           GITHUB_ACTIONS: true
         run: python -m trendradar
-
-      - name: Update root index.html for Pages
-        if: success()
-        run: |
-          if [ -f output/index.html ]; then
-            cp output/index.html index.html
-          else
-            echo "output/index.html not found. Please check where TrendRadar generates the page."
-            ls -la
-            find . -maxdepth 3 -name "index.html" -print
-            exit 1
-          fi
-
-      - name: Commit and push index.html
-        if: success()
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add index.html
-          git diff --cached --quiet && echo "no changes" && exit 0
-          git commit -m "chore(pages): update index.html"
-          git push
-
